@@ -1,3 +1,22 @@
+import "./styles.css";
+
 export default function App(){
-  return <div>App</div>
+  return (
+    <div>
+
+    <form className="new-item-form">
+      <div className="form-row">
+        <label htmrlFor='item'>New Item</label>
+        <input type="text" id='item' />
+      </div>
+  
+      <button className="btn">Add</button>
+  
+    </form>
+  
+    <h1 className="header">Todo List</h1>
+    
+    </div>
+  )
+  
 }
